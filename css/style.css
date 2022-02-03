@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+.canvas-wrappers {
+    position: relative;
+}
+
+#mapCanvas {
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#playerCanvas {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%);
+
+}
